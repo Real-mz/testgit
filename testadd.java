@@ -1,3 +1,4 @@
+
 public class testadd{
     public static void quickSort(int[] arr, int low, int high) {
         int pivot;
@@ -39,10 +40,7 @@ public class testadd{
 
     public static void main(String[] args) {
         int[] input = {1,3,5,7,2,5,4};
-        //quickSort(input,0,input.length-1);
-        // for(int i = 0;i<input.length;i++){
-        //     System.out.println(input[i]);
-        // }
+        //git modify test
         int result = quickSelect(input,3,0,input.length-1);
         System.out.println(result);
     }
